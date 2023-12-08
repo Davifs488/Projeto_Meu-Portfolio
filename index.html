@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="meu portifolio profissional criado em html,css e javascript"
+    />
+    <title>Portifolio.</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./img/dev_davi.jpg" />
+  </head>
+  <body>
+    <!---->
+    <h1>Portifolio.</h1>
+
+    <header>
+      <!--inicio  cabeçalho  bg-warning-->
+
+      <nav class="navbar navbar-expand-md navbar-light navbar-transparente">
+        <div class="container">
+          <!--inicio cont-logo-->
+          <a href="index.html" class="navbar-brand">
+            <img src="./img/dev_davi.jpg" width="72" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#nav-principal"
+          >
+            <!-- <i class="bi bi-list text-blacck"></i> -->
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5
+                 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-
+                 .5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z text-blacck"
+              />
+            </svg>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal" color="#000">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  href="./apresentação-pronto/Apresentação.html"
+                  target="_blank"
+                  class="nav-link"
+                  >Apresentação</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  href="./Página Capitura/informações.html"
+                  target="_blank"
+                  class="nav-link"
+                  >Desenvolvedor Web</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  href="./calculardora-preta/aplicativo.html"
+                  target="_blank"
+                  class="nav-link"
+                  >Calculadora</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--colocar aqui os coteudos-->
+      </nav>
+    </header>
+
+    <!--fim  cabeçalho-->
+
+    <!-- home section desing -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Olá , me chamo</h3>
+        <h1>Davi F.S</h1>
+        <h3>Sou um <span class="multiple-text"> Desenvolvedor web</span></h3>
+        <p>
+          Sou um criador de sites, Portfolio, blogues e conteúdos para
+          divulgação pela internet Trabalho com paginas responsivas,
+          responsividade e uma configuração que permite seu site ,ter
+          funcionamento em computadores e também celulares
+          <br />
+        </p>
+        <div class="socioal-media">
+          <a href="https://www.instagram.com/dev_davi.web/" target="_blank">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/davi-ferreira-da-silva-915a891a4"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://github.com/Davifs488" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./img/eu-violão.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./img/eu-apont-direita.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">Um pouco <span>sobre Mim</span></h2>
+        <h3>Desenvolvedor Front end</h3>
+        <p>
+          Estou no Curso Superior de Analise e<br />
+          Desenvolvimento de Sistema pela Universidade Unopar.<br />
+          E atravez de cursos extras de capacitação tenho trabalhado<br />
+          Como desenvolvedor Front end.<br />
+          Trabalho com Html, Css, JavaScript, Bootstrap e React.
+        </p>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+    </section>
+
+    <!-- services section design-->
+    <section class="services" id="services">
+      <h2 class="heading">Nossos <span>Serviços</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <h3>Desenvolvedor web</h3>
+          <i class="bx bxl-html5"></i>
+          <p>
+            Criamos paginas , sites , blogues e conteúdos para.<br />
+            propagando de perfis pessoais, escolas, comércios e<br />
+            qualque atividades , serviços ou trabalho.<br />
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+
+        <div class="services-box">
+          <h3>Aplicativos</h3>
+          <i class="bx bxl-javascript"></i>
+          <p>
+            A linguagem que usamos e a JavaScript<br />
+            e com ela além de deixarmos nossos sites dinâmicos,<br />
+            Podemos criar varios aplicativos web <br />
+            e responsivo.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+
+        <div class="services-box">
+          <h3>Sites responsivos</h3>
+          <i class="bx bxl-bootstrap"></i>
+          <p>
+            Responsivo é todo o site que funciona,<br />
+            em computadores e celulares.<br />
+            E é assim que criamos nossos sites <br />
+            e usamos o Bootstrap. <br />
+            Para configura-los.
+          </p>
+          <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+      </div>
+    </section>
+
+    <!--Potfolio section desing-->
+
+    <section class="contato" id="contato">
+      <h2 class="heading">Entre em <span>Contato!</span></h2>
+
+      <form action="sildv45@gamil.com">
+        <div class="input-box">
+          <input type="text" placeholder="Davi F.S" />
+          <input type="#" placeholder="sildv45@gmail.com" />
+        </div>
+
+        <div class="input-box">
+          <input type="(21)9830-27452" placeholder="Zap -" />
+          <input type="text" placeholder="(21)98302-7452" />
+        </div>
+      </form>
+      <h2>Obrigado pela visita</h2>
+
+      <div>
+        <video autoplay loop muted plays-inline width="300px" height="120px">
+          <source src="./img/Davi.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+    <footer class="mt-4 mb-4 vida">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="dav">Criado por Dev_Davi</p>
+            <p>
+              <!-- <a href="">Home</a> -->
+              <a href="./1_conversor_de _unidade/index.html" target="_blank"
+                >Tecnoloia</a
+              >
+              <a href="./minha-adap/index02.html" target="_blank" -
+                >Modelo de Site</a
+              >
+              <a href="./apresentação-pronto/Apresentação.html" target="_blank"
+                >contato</a
+              >
+            </p>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-end">
+            <a
+              href="https://www.instagram.com/dev_davi.web/"
+              class="contact gradient ml-2"
+              target="_blank"
+            >
+              <img
+                src="./img/inst-fundo-preto.png"
+                width="40px"
+                alt="imagem do instagran"
+              />
+            </a>
+
+            <a
+              href="https://github.com/Davifs488"
+              class="contact gradient ml-2"
+              target="_blank"
+            >
+              <img
+                src="./img/git-fundo-preto.png"
+                width="40px"
+                alt="Imagem github"
+              />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/davi-ferreira-da-silva-915a891a4"
+              class="contact gradient ml-2"
+              target="_blank"
+            >
+              <img
+                src="./img/linkdin-fun-preto.png"
+                targ
+                width="40px"
+                alt="insta"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=x-FarCThEg0"
+              class="contact gradient ml-2"
+              target="_blank"
+            >
+              <img
+                src="./img/yout-fund-preto.png"
+                targ
+                width="40px"
+                alt="insta"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- <script src="index.js"></script> -->
+  </body>
+</html>
